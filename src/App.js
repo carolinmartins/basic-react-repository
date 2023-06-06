@@ -1,21 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// don't forget to change the favicon and insert a11y in the website!
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Start to code over here, pretty please :)</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          This is how you make a link, for example!
         </a>
       </header>
     </div>
